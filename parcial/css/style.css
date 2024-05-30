@@ -1,0 +1,207 @@
+@import url("fontawesome-free-6.5.2-web/css/all.min.css");
+body{
+	margin: 0;
+}
+.inicio{
+	background: url("../imagenes/banner.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:695px;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.texto{
+	text-align: center;
+	margin: auto;
+}
+.inicio li i{
+	font-weight: 400;
+    border: solid 2px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+}
+h1{
+	margin: 0;
+    font-size: 90px;
+	color: white;
+	letter-spacing: 5px;
+}
+.texto p{
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+nav ul li a {
+	text-decoration: none;
+    color: white;
+font-size: 20px;
+    padding: 20px;
+	font-weight: bold;
+}
+
+.inicio nav ul li a:hover {
+	color: #AAAAAA;
+}
+.inicio nav ul li a i:hover {
+	background-color: #AAAAAA;
+}
+.inicio nav ul{
+	display: flex;
+	justify-content: center;
+}
+.inicio nav ul li{
+list-style: none;
+}
+nav ul a {
+	color: white;
+}
+
+.estatico{
+	 position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 20;
+    border: 1px solid white;
+}
+.seccion-blog{
+	text-align: center;
+}
+.seccion-blog h2{
+	font-size: 50px;
+}
+.seccion-blog nav ul li a {
+	text-decoration: none;
+	font-weight: 100;
+    font-size: 25px;
+    padding: 40px;
+}
+.seccion-blog nav ul li a:hover{
+	opacity: 0.5;
+}
+.seccion-blog nav ul{
+	display: flex;
+	justify-content: center;
+}
+.seccion-blog nav ul li{
+list-style: none;
+}
+.seccion-blog nav ul a {
+	color: blue;
+}
+.seccion-blog li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    position: relative;
+}
+
+.banner2{
+	width: 100%;
+	padding-top: 25px;
+}
+h3{
+	font-size: 35px;
+}
+.centrar{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.seccion-blog p{
+	text-align: left;
+}
+.seccion-blog .izquierda{
+width: 15%;
+}
+.seccion-blog .derecha{
+	width: 85%;
+	padding-left: 40px;
+}
+.seccion-blog .texto2{
+	display: flex;
+}
+.texto4 nav ul li a {
+	text-decoration: none;
+	font-weight: 100;
+    font-size: 15px;
+    padding: 20px;
+}
+.seleccion1,.seleccion2,.seleccion3,.seleccion4:hover{
+	border-bottom: 2px solid red;
+}
+.seleccion2{
+border-bottom: 2px solid red;
+}
+.seleccion3{
+	 border-bottom: 2px solid red;
+}
+.seleccion4{
+ border-bottom: 2px solid red;
+}
+.texto4  nav ul{
+	display: flex;
+	justify-content: center;
+}
+.texto4  nav ul li{
+list-style: none;
+}
+.texto4 nav ul a {
+	color:black;
+}
+.galeria{
+	padding-top: 35px;
+}
+.row{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+.column{
+	width: 32%;
+}
+.gale{
+	width: 100%;
+    box-shadow: 8px 10px 1px rgba(0, 0, 0, 0.5);
+}
+.gale:hover{
+	opacity: 0.5;
+}
+.column p{
+	font-size: 20px;
+}
+.texto-video{
+	padding-top: 20px;
+}
+.column p{
+	text-align: center;
+}
+.texto4 li i{
+	font-weight: 400;
+    border: solid 2px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color:black;
+    color:white;
+}
+.profesor{
+	height:70px;
+	width: 70px;
+		border-radius: 50px;
+}
+.texto1 h3{
+	    padding-bottom: 50px;
+}
+.imagen-profe{
+	position: absolute;
+    top: 0;
+    right: 0;
+}
+.texto1{
+	position: relative;
+}
+.descrip{
+	text-align: center;
+	font-size: 10px;
+}
